@@ -1,6 +1,6 @@
 # IntruSex-BH — Deployment-Ready Behaviour-Driven Blackhole Intelligence
 
-This package implements the IntruSex-BH detection/intelligence pipeline using the supplied CSV as the runtime schema.
+This package implements the IntruSex-BH detection/intelligence pipeline using the supplied CSV as the runtime schema.THIS IS AN AMAZING PROJECT!!!!!!!!!!!
 
 ## Explicit architecture decision
 
