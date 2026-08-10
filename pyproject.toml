@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intrusex-bh"
+version = "1.0.0"
+description = "IntruSex-BH behaviour-driven blackhole detection and explainable risk intelligence"
+requires-python = ">=3.11"
+dependencies = [
+  "torch>=2.1","pandas>=2.0","numpy>=1.24","scikit-learn>=1.3",
+  "scipy>=1.10","joblib>=1.3","fastapi>=0.110","uvicorn[standard]>=0.27",
+  "pydantic>=2.0","prometheus-client>=0.20"
+]
+[tool.pytest.ini_options]
+pythonpath=["."]
+testpaths=["tests"]
